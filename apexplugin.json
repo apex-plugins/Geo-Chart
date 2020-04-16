@@ -1,0 +1,44 @@
+{
+	"name": "0integration GeoChart",
+	"version": "1.0",
+	"description": "Google map marker cluster region plugin used to display location marker cluster on google map.",
+	"keywords": ["map", "mapmarker","mapmarkercluster", "address", "googlemap", "markercluster"],
+	"homepage": "https://github.com/apex-plugins/Geo-Chart",
+	"bugs": {
+		"url": "https://github.com/apex-plugins/Geo-Chart/issues",
+		"email": "kartik.patel@zerointegration.com"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Kartik Patel",
+		"email": "kartik.patel@zerointegration.com",
+		"url": "https://zerointegration.com/",
+		"twitter": "kp9985",
+		"donationUrl": ""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/apex-plugins/Geo-Chart.git"
+	},
+	"oracle": {
+		"versions": [
+			"11.2.0.1",
+			"12.1.0.1",
+			"12.2.0.1"
+		],
+		"apex": {
+			"versions": [
+				"18.1.0",
+				"18.2.0",
+				"19.1.0",
+				"19.2.0"
+			],
+			"plugin": {
+				"internalName": "COM.ZEROINTEGRATION.GEOCHART",
+				"type": "region",
+				"demo": "https://apps.zerointegration.com/demo/f?p=apexplugins:geochart",
+				"previewImage": "https://raw.githubusercontent.com/apex-plugins/Geo-Chart/master/Source/Preview.png"
+			}
+		}
+	}
+}
